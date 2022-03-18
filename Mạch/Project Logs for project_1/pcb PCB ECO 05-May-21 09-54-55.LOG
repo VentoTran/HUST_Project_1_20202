@@ -1,0 +1,18 @@
+Change Component Footprint: Designator=VOL1 Old Footprint=VOL-S New Footprint=RVAR10K
+Change Component Comment : Designator=R22 Old Comment=1k New Comment=10k
+Change Component Comment : Designator=VOL1 Old Comment=1K New Comment=20K
+Change Component Comment : Designator=X1 Old Comment=4Mhz New Comment=12Mhz
+Change Component Comment : Designator=C2 Old Comment=220uF-25V New Comment=100uF
+Change Component Comment : Designator=C6 Old Comment=Capacitor Ceramic New Comment=150pF
+Change Component Comment : Designator=D3 Old Comment=DZ New Comment=5V
+Change Component Comment : Designator=D4 Old Comment=DZ New Comment=9V
+Change component parameters: Designator = "BT1"; Footprint = "Nut Nhan 2 Chan SMD_N"; UniqueID = "\DGPEQMJC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH001036"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Nút Nh?n 2 Chân 3x6x2.5MM SMD"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC6_2 Pin=IC3-4
+Added Room: Name=schematic

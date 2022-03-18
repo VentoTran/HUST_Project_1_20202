@@ -1,0 +1,185 @@
+C51 COMPILER V9.01   LCD1602                                                               06/09/2021 20:55:57 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE LCD1602
+OBJECT MODULE PLACED IN LCD1602.OBJ
+COMPILER INVOKED BY: E:\Phan mem\Keil 4 for 8051\C51\BIN\C51.EXE LCD1602.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include "LCD1602.h"
+   2          #include "port.h"
+*** ERROR C231 IN LINE 13 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'P0': redefinition
+*** ERROR C231 IN LINE 14 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'P1': redefinition
+*** ERROR C231 IN LINE 15 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'P2': redefinition
+*** ERROR C231 IN LINE 16 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'P3': redefinition
+*** ERROR C231 IN LINE 17 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'PSW': redefinition
+*** ERROR C231 IN LINE 18 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'ACC': redefinition
+*** ERROR C231 IN LINE 19 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'B': redefinition
+*** ERROR C231 IN LINE 20 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'SP': redefinition
+*** ERROR C231 IN LINE 21 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'DPL': redefinition
+*** ERROR C231 IN LINE 22 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'DPH': redefinition
+*** ERROR C231 IN LINE 23 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'PCON': redefinition
+*** ERROR C231 IN LINE 24 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'TCON': redefinition
+*** ERROR C231 IN LINE 25 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'TMOD': redefinition
+*** ERROR C231 IN LINE 26 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'TL0': redefinition
+*** ERROR C231 IN LINE 27 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'TL1': redefinition
+*** ERROR C231 IN LINE 28 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'TH0': redefinition
+*** ERROR C231 IN LINE 29 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'TH1': redefinition
+*** ERROR C231 IN LINE 30 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'IE': redefinition
+*** ERROR C231 IN LINE 31 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'IP': redefinition
+*** ERROR C231 IN LINE 32 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'SCON': redefinition
+*** ERROR C231 IN LINE 33 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'SBUF': redefinition
+*** ERROR C231 IN LINE 45 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'CY': redefinition
+*** ERROR C231 IN LINE 46 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'AC': redefinition
+*** ERROR C231 IN LINE 47 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'F0': redefinition
+*** ERROR C231 IN LINE 48 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'RS1': redefinition
+*** ERROR C231 IN LINE 49 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'RS0': redefinition
+*** ERROR C231 IN LINE 50 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'OV': redefinition
+*** ERROR C231 IN LINE 51 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'P': redefinition
+*** ERROR C231 IN LINE 54 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'TF1': redefinition
+*** ERROR C231 IN LINE 55 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'TR1': redefinition
+*** ERROR C231 IN LINE 56 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'TF0': redefinition
+*** ERROR C231 IN LINE 57 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'TR0': redefinition
+*** ERROR C231 IN LINE 58 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'IE1': redefinition
+*** ERROR C231 IN LINE 59 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'IT1': redefinition
+*** ERROR C231 IN LINE 60 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'IE0': redefinition
+*** ERROR C231 IN LINE 61 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'IT0': redefinition
+*** ERROR C231 IN LINE 64 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'EA': redefinition
+*** ERROR C231 IN LINE 66 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'ES': redefinition
+*** ERROR C231 IN LINE 67 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'ET1': redefinition
+*** ERROR C231 IN LINE 68 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'EX1': redefinition
+*** ERROR C231 IN LINE 69 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'ET0': redefinition
+*** ERROR C231 IN LINE 70 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'EX0': redefinition
+*** ERROR C231 IN LINE 74 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'PS': redefinition
+*** ERROR C231 IN LINE 75 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'PT1': redefinition
+*** ERROR C231 IN LINE 76 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'PX1': redefinition
+*** ERROR C231 IN LINE 77 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'PT0': redefinition
+*** ERROR C231 IN LINE 78 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'PX0': redefinition
+*** ERROR C231 IN LINE 81 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'RD': redefinition
+*** ERROR C231 IN LINE 82 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'WR': redefinition
+*** ERROR C231 IN LINE 83 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'T1': redefinition
+*** ERROR C231 IN LINE 84 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'T0': redefinition
+*** ERROR C231 IN LINE 85 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'INT1': redefinition
+*** ERROR C231 IN LINE 86 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'INT0': redefinition
+C51 COMPILER V9.01   LCD1602                                                               06/09/2021 20:55:57 PAGE 2   
+
+*** ERROR C231 IN LINE 87 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'TXD': redefinition
+*** ERROR C231 IN LINE 88 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'RXD': redefinition
+*** ERROR C231 IN LINE 91 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'SM0': redefinition
+*** ERROR C231 IN LINE 92 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'SM1': redefinition
+*** ERROR C231 IN LINE 93 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'SM2': redefinition
+*** ERROR C231 IN LINE 94 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'REN': redefinition
+*** ERROR C231 IN LINE 95 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'TB8': redefinition
+*** ERROR C231 IN LINE 96 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'RB8': redefinition
+*** ERROR C231 IN LINE 97 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'TI': redefinition
+*** ERROR C231 IN LINE 98 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\REG52.H: 'RI': redefinition
+   3          
+   4          
+   5          void sendLowNibble(unsigned char DATA)
+   6          {
+   7   1              LCD = (LCD & 0x0F);
+   8   1              LCD |= (DATA  << 4);
+   9   1      }
+  10          
+  11          
+  12          void sendHighNibble(unsigned char DATA)
+  13          {
+  14   1              LCD = (LCD & 0x0F);
+  15   1              LCD |= (DATA & 0xF0);
+  16   1      }
+  17          
+  18          
+  19          void sendCmd(unsigned char CMD)
+  20          {
+  21   1              RW = 0;         //write to LCD
+  22   1              RS = 0;         //send CMD
+  23   1              
+  24   1              sendHighNibble(CMD);
+  25   1              
+  26   1              EN = 0;
+  27   1              delay(1);
+  28   1              EN = 1;
+  29   1              delay(2);
+  30   1              
+  31   1              sendLowNibble(CMD);
+  32   1              
+  33   1              EN = 0;
+  34   1              delay(1);
+  35   1              EN = 1;
+  36   1              delay(2);
+  37   1      }
+  38          
+  39          
+  40          void sendData(unsigned char DATA)
+  41          {
+  42   1              RW = 0;         //write to LCD
+  43   1              RS = 1;         //send DATA
+  44   1              
+  45   1              sendHighNibble(DATA);
+  46   1              
+  47   1              EN = 0;
+  48   1              delay(1);
+  49   1              EN = 1;
+  50   1              delay(2);
+  51   1              
+  52   1              sendLowNibble(DATA);
+  53   1              
+  54   1              EN = 0;
+C51 COMPILER V9.01   LCD1602                                                               06/09/2021 20:55:57 PAGE 3   
+
+  55   1              delay(1);
+  56   1              EN = 1;
+  57   1              delay(2);
+  58   1      }
+  59          
+  60          
+  61          void LCD_Init(void)
+  62          {
+  63   1              delay(50);              /* LCD Power ON Initialization time >15ms */
+  64   1              sendCmd (0x02); /* 4bit mode */
+  65   1              delay(10);
+  66   1              sendCmd (0x28); /* Initialization of 16X2 LCD in 4bit mode */
+  67   1              delay(10);
+  68   1              sendCmd (0x0C); /* Display ON Cursor OFF */
+  69   1              delay(10);
+  70   1              sendCmd (0x06); /* Auto Increment cursor */
+  71   1              delay(10);
+  72   1              sendCmd (0x01); /* Clear display */
+  73   1              delay(10);
+  74   1              sendCmd (0x80); /* Cursor at home position */
+  75   1              delay(10);
+  76   1      }
+  77          
+  78          
+  79          void LCD_Clr(void)
+  80          {
+  81   1              sendCmd (0x01);
+  82   1      }
+  83          
+  84          void setCursor(unsigned short x, unsigned short y)
+  85          {
+  86   1              if (y == 0)
+  87   1                      sendCmd ((x & 0x0F) | 0x80);
+  88   1              else if (y == 1)
+  89   1                      sendCmd ((x & 0x0F) | 0xC0);
+  90   1      }
+  91          
+  92          
+  93          void printChar(char c)
+  94          {
+  95   1              sendData(c);
+  96   1      }
+  97          
+  98          
+  99          void printStrg(char* c)
+ 100          {
+ 101   1              while(*c)
+ 102   1              {
+ 103   2                      printChar(*c++);
+ 104   2              }
+ 105   1      }
+ 106          
+ 107          
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  63 ERROR(S)

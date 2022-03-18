@@ -1,0 +1,14 @@
+Change Component Footprint: Designator=VR5 Old Footprint=VR1 New Footprint=VAR_RESISTOR
+Change Component Footprint: Designator=VR1 Old Footprint=VR New Footprint=VR_3362P
+Change Component Footprint: Designator=VR2 Old Footprint=VR New Footprint=VR_3362P
+Change Component Footprint: Designator=VR3 Old Footprint=VR New Footprint=VR_3362P
+Change Component Footprint: Designator=VR4 Old Footprint=VR New Footprint=VR_3362P
+Change component parameters: Designator = "BT1"; Footprint = "Nut Nhan 2 Chan SMD_N"; UniqueID = "\DGPEQMJC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH001036"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Nút Nh?n 2 Chân 3x6x2.5MM SMD"; VariantName = "[No Variations]"
+Added Room: Name=schematic

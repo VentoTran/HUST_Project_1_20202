@@ -1,0 +1,135 @@
+C51 COMPILER V9.60.0.0   LCD1602                                                           06/16/2021 16:24:30 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE LCD1602
+OBJECT MODULE PLACED IN .\Objects\LCD1602.obj
+COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE LCD1602.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\L
+                    -CD1602.lst) TABS(2) OBJECT(.\Objects\LCD1602.obj)
+
+line level    source
+
+   1          #include "LCD1602.h"
+   2          #include "port.h"
+   3          
+   4          
+   5          void sendLowNibble(unsigned char DATA)
+   6          {
+   7   1        LCD = (LCD & 0x0F);
+   8   1        LCD |= (DATA  << 4);
+   9   1      }
+  10          
+  11          
+  12          void sendHighNibble(unsigned char DATA)
+  13          {
+  14   1        LCD = (LCD & 0x0F);
+  15   1        LCD |= (DATA & 0xF0);
+  16   1      }
+  17          
+  18          
+  19          void sendCmd(unsigned char CMD)
+  20          {
+  21   1        RW = 0;   //write to LCD
+  22   1        RS = 0;   //send CMD
+  23   1        
+  24   1        sendHighNibble(CMD);
+  25   1        
+  26   1        EN = 0;
+  27   1        delay(1);
+  28   1        EN = 1;
+  29   1        delay(2);
+  30   1        
+  31   1        sendLowNibble(CMD);
+  32   1        
+  33   1        EN = 0;
+  34   1        delay(1);
+  35   1        EN = 1;
+  36   1        delay(2);
+  37   1      }
+  38          
+  39          
+  40          void sendData(unsigned char DATA)
+  41          {
+  42   1        RW = 0;   //write to LCD
+  43   1        RS = 1;   //send DATA
+  44   1        
+  45   1        sendHighNibble(DATA);
+  46   1        
+  47   1        EN = 0;
+  48   1        delay(1);
+  49   1        EN = 1;
+  50   1        delay(2);
+  51   1        
+  52   1        sendLowNibble(DATA);
+  53   1        
+  54   1        EN = 0;
+C51 COMPILER V9.60.0.0   LCD1602                                                           06/16/2021 16:24:30 PAGE 2   
+
+  55   1        delay(1);
+  56   1        EN = 1;
+  57   1        delay(2);
+  58   1      }
+  59          
+  60          
+  61          void LCD_Init(void)
+  62          {
+  63   1        delay(50);      /* LCD Power ON Initialization time >15ms */
+  64   1        sendCmd (0x02); /* 4bit mode */
+  65   1        delay(10);
+  66   1        sendCmd (0x28); /* Initialization of 16X2 LCD in 4bit mode */
+  67   1        delay(10);
+  68   1        sendCmd (0x0C); /* Display ON Cursor OFF */
+  69   1        delay(10);
+  70   1        sendCmd (0x06); /* Auto Increment cursor */
+  71   1        delay(10);
+  72   1        sendCmd (0x01); /* Clear display */
+  73   1        delay(10);
+  74   1        sendCmd (0x80); /* Cursor at home position */
+  75   1        delay(10);
+  76   1      }
+  77          
+  78          
+  79          void LCD_Clr(void)
+  80          {
+  81   1        sendCmd (0x01);
+  82   1      }
+  83          
+  84          void setCursor(unsigned short x, unsigned short y)
+  85          {
+  86   1        if (y == 0)
+  87   1          sendCmd ((x & 0x0F) | 0x80);
+  88   1        else if (y == 1)
+  89   1          sendCmd ((x & 0x0F) | 0xC0);
+  90   1      }
+  91          
+  92          
+  93          void printChar(char c)
+  94          {
+  95   1        sendData(c);
+  96   1      }
+  97          
+  98          
+  99          void printStrg(char* c)
+ 100          {
+ 101   1        while(*c)
+ 102   1        {
+ 103   2          printChar(*c++);
+ 104   2        }
+ 105   1      }
+ 106          
+ 107          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    283    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       9
+   IDATA SIZE       =   ----    ----
+C51 COMPILER V9.60.0.0   LCD1602                                                           06/16/2021 16:24:30 PAGE 3   
+
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,15 @@
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=D2-1
+Added Pin To Net: NetName=GND Pin=IC1-2
+Added Pin To Net: NetName=GND Pin=JDC1-2
+Added Pin To Net: NetName=GND Pin=JDC1-3
+Added Pin To Net: NetName=GND Pin=LED1-2
+Added Member To Class: ClassName=schematic Member=Component C3 104
+Added Member To Class: ClassName=schematic Member=Component C4 104
+Added Member To Class: ClassName=schematic Member=Component IC1 LM7805
+Added Member To Class: ClassName=schematic Member=Component R13 0R
+Added Member To Class: ClassName=schematic Member=Component VR4 10k
+Added Room: Name=schematic

@@ -1,0 +1,197 @@
+C51 COMPILER V9.01   MAIN                                                                  06/09/2021 20:55:56 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: E:\Phan mem\Keil 4 for 8051\C51\BIN\C51.EXE main.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include "port.h"
+   2          #include "LCD1602.h"
+*** ERROR C231 IN LINE 13 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'P0': redefinition
+*** ERROR C231 IN LINE 14 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'P1': redefinition
+*** ERROR C231 IN LINE 15 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'P2': redefinition
+*** ERROR C231 IN LINE 16 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'P3': redefinition
+*** ERROR C231 IN LINE 17 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'PSW': redefinition
+*** ERROR C231 IN LINE 18 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'ACC': redefinition
+*** ERROR C231 IN LINE 19 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'B': redefinition
+*** ERROR C231 IN LINE 20 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'SP': redefinition
+*** ERROR C231 IN LINE 21 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'DPL': redefinition
+*** ERROR C231 IN LINE 22 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'DPH': redefinition
+*** ERROR C231 IN LINE 23 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'PCON': redefinition
+*** ERROR C231 IN LINE 24 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TCON': redefinition
+*** ERROR C231 IN LINE 25 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TMOD': redefinition
+*** ERROR C231 IN LINE 26 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TL0': redefinition
+*** ERROR C231 IN LINE 27 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TL1': redefinition
+*** ERROR C231 IN LINE 28 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TH0': redefinition
+*** ERROR C231 IN LINE 29 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TH1': redefinition
+*** ERROR C231 IN LINE 30 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'IE': redefinition
+*** ERROR C231 IN LINE 31 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'IP': redefinition
+*** ERROR C231 IN LINE 32 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'SCON': redefinition
+*** ERROR C231 IN LINE 33 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'SBUF': redefinition
+*** ERROR C231 IN LINE 38 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'CY': redefinition
+*** ERROR C231 IN LINE 39 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'AC': redefinition
+*** ERROR C231 IN LINE 40 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'F0': redefinition
+*** ERROR C231 IN LINE 41 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'RS1': redefinition
+*** ERROR C231 IN LINE 42 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'RS0': redefinition
+*** ERROR C231 IN LINE 43 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'OV': redefinition
+*** ERROR C231 IN LINE 44 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'P': redefinition
+*** ERROR C231 IN LINE 47 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TF1': redefinition
+*** ERROR C231 IN LINE 48 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TR1': redefinition
+*** ERROR C231 IN LINE 49 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TF0': redefinition
+*** ERROR C231 IN LINE 50 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TR0': redefinition
+*** ERROR C231 IN LINE 51 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'IE1': redefinition
+*** ERROR C231 IN LINE 52 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'IT1': redefinition
+*** ERROR C231 IN LINE 53 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'IE0': redefinition
+*** ERROR C231 IN LINE 54 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'IT0': redefinition
+*** ERROR C231 IN LINE 57 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'EA': redefinition
+*** ERROR C231 IN LINE 58 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'ES': redefinition
+*** ERROR C231 IN LINE 59 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'ET1': redefinition
+*** ERROR C231 IN LINE 60 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'EX1': redefinition
+*** ERROR C231 IN LINE 61 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'ET0': redefinition
+*** ERROR C231 IN LINE 62 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'EX0': redefinition
+*** ERROR C231 IN LINE 65 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'PS': redefinition
+*** ERROR C231 IN LINE 66 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'PT1': redefinition
+*** ERROR C231 IN LINE 67 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'PX1': redefinition
+*** ERROR C231 IN LINE 68 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'PT0': redefinition
+*** ERROR C231 IN LINE 69 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'PX0': redefinition
+*** ERROR C231 IN LINE 72 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'RD': redefinition
+*** ERROR C231 IN LINE 73 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'WR': redefinition
+*** ERROR C231 IN LINE 74 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'T1': redefinition
+*** ERROR C231 IN LINE 75 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'T0': redefinition
+*** ERROR C231 IN LINE 76 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'INT1': redefinition
+*** ERROR C231 IN LINE 77 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'INT0': redefinition
+C51 COMPILER V9.01   MAIN                                                                  06/09/2021 20:55:56 PAGE 2   
+
+*** ERROR C231 IN LINE 78 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TXD': redefinition
+*** ERROR C231 IN LINE 79 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'RXD': redefinition
+*** ERROR C231 IN LINE 82 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'SM0': redefinition
+*** ERROR C231 IN LINE 83 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'SM1': redefinition
+*** ERROR C231 IN LINE 84 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'SM2': redefinition
+*** ERROR C231 IN LINE 85 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'REN': redefinition
+*** ERROR C231 IN LINE 86 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TB8': redefinition
+*** ERROR C231 IN LINE 87 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'RB8': redefinition
+*** ERROR C231 IN LINE 88 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TI': redefinition
+*** ERROR C231 IN LINE 89 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'RI': redefinition
+   3          #include "ADC0804.h"
+   4          #include "HS1101.h"
+   5          #include "stdio.h"
+   6          
+   7          
+   8          unsigned int ADC_Value = 0;
+   9          unsigned int Frequency = 0;
+  10          double Temperature = 0.0;
+  11          unsigned short Humidity = 0;
+  12          
+  13          unsigned char a[5];
+  14          unsigned char buffer[20];
+  15          
+  16          void uart_init();
+  17          
+  18          /*
+  19          unsigned int HS1101[101] = {
+  20                                                                                                                          7410, 7392, 7374, 7357, 7340, 7323, 7307, 7290, 7274, 7259, 
+  21                                                                                                                          7243, 7228, 7213, 7198, 7183 ,7169, 7155, 7140, 7127, 7113, 
+  22                                                                                                                          7099, 7086, 7072, 7059, 7046, 7033, 7020, 7007, 6995, 6982, 
+  23                                                                                                                          6969, 6957, 6945, 6932, 6920, 6908, 6896, 6884, 6872, 6860, 
+  24                                                                                                                          6848, 6836, 6824, 6812, 6800, 6788, 6776, 6764, 6752, 6740, 
+  25                                                                                                                          6728, 6716, 6704, 6692, 6680, 6668, 6656, 6643, 6631, 6619, 
+  26                                                                                                                          6606, 6594, 6581, 6568, 6556, 6543, 6530, 6517, 6504, 6491, 
+  27                                                                                                                          6477, 6464, 6450, 6437, 6423, 6409, 6395, 6381, 6367, 6352, 
+  28                                                                                                                          6338, 6323, 6309, 6294, 6279, 6264, 6248, 6233, 6217, 6202, 
+  29                                                                                                                          6186, 6170, 6154, 6137, 6121, 6104, 6087, 6070, 6053, 6036, 6019};
+  30          */
+  31          
+  32          
+  33          
+  34          void main(void)
+  35          {
+  36   1              TMOD = 0X51;
+  37   1              LCD_Init();
+  38   1              setCursor(3, 0);
+  39   1              printStrg("PROJECT_1");
+  40   1              setCursor(2, 1);
+  41   1              printStrg("MINH - DUNG");
+  42   1              delay(1000);
+  43   1              LCD_Clr();
+  44   1              uart_init();
+  45   1              
+  46   1              while(1)
+  47   1              {
+  48   2                      LED = 0;
+  49   2                      setCursor(0, 0);
+  50   2                      ADC_Value = ADC0804_Read();
+  51   2                      Temperature = Cal_Temp(ADC_Value);
+  52   2                      //sprintf(a, "%2.1f", Temperture);
+  53   2                      sprintf(a, "%3i", ADC_Value);
+  54   2                      putchar('a');
+C51 COMPILER V9.01   MAIN                                                                  06/09/2021 20:55:56 PAGE 3   
+
+  55   2      //              printStrg("Temp: ");
+  56   2      //              printStrg(a);
+  57   2                      /*
+  58   2                      if(ADC_Value <= 30)
+  59   2                      {
+  60   2                              setCursor(9, 1);
+  61   2                              printChar(0xDF);
+  62   2                              printStrg("C ");
+  63   2                      }
+  64   2                      else
+  65   2                      {
+  66   2                              printChar(0xDF);
+  67   2                              printChar('C');
+  68   2                      }
+  69   2                      */
+  70   2      //              LED = 1;
+  71   2      //              setCursor(0, 1);
+  72   2      //              Frequency = Get_Freq();
+  73   2      //              Humidity = Get_Humd(Frequency);
+  74   2      //              printStrg("Humidity: ");
+  75   2      //              //sprintf(a, "%2d", Humidity);
+  76   2      //              sprintf(a, "%5d", Frequency);
+  77   2      //              printStrg(a);
+  78   2      //              //printChar('%');
+  79   2      //              
+  80   2      //              
+  81   2      //              delay(500);
+  82   2                      
+  83   2              }
+  84   1              
+  85   1      }
+  86          
+  87          void uart_init()
+  88          {
+  89   1              SCON = 0x52; //Uart mode 1
+  90   1              T2CON = 0x20;                   //Timer 1 autoreload mode
+  91   1              TCLK = 1; RCLK =1; //choose timer 2 for two transmission lines
+  92   1              RCAP2H = 0;                             //baudrate 9600
+  93   1              RCAP2L = -36;
+  94   1              TR2 = 1;
+  95   1              IE = 0x90;
+  96   1              
+  97   1      }       
+  98          
+  99          void comPortInterrupt(void) interrupt 4
+ 100          {
+ 101   1              char receivedData = SBUF;
+ 102   1              IE = 0x00;
+ 103   1              if (receivedData == '$')
+ 104   1              {
+ 105   2                      if (Temperature && Humidity)
+ 106   2                      {
+ 107   3                              sprintf(buffer, "%3f,", Temperature);
+ 108   3                              sprintf(buffer, "%2d", Humidity);
+ 109   3                              printf(buffer); 
+ 110   3                      }       
+ 111   2              }
+ 112   1              RI = 0;
+ 113   1              IE = 0x90;
+ 114   1      }       
+ 115          
+ 116          
+C51 COMPILER V9.01   MAIN                                                                  06/09/2021 20:55:56 PAGE 4   
+
+ 117          
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  63 ERROR(S)

@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=NetR13_2 Pin=U2-1
+Removed Pin From Net: NetName=NetR1_2 Pin=U2-2
+Removed Pin From Net: NetName=NetR7_2 Pin=U2-3
+Removed Pin From Net: NetName=VCC Pin=U2-4
+Removed Pin From Net: NetName=NetR8_2 Pin=U2-5
+Removed Pin From Net: NetName=NetR13_2 Pin=U2-6
+Removed Pin From Net: NetName=ADC Pin=U2-7
+Removed Pin From Net: NetName=GND Pin=U2-11
+Change Component Designator: OldDesignator=U2 NewDesignator=U13
+Added Component: Designator=U2(DIP14/W0.3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Amplifier Type"; Value = "J-FET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Integrated Circuits (ICs)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Input Bias"; Value = "50pA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Output / Channel"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Supply"; Value = "8mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gain Bandwidth Product"; Value = "3MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "LF347BD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Circuits"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "0°C ~ 70°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Type"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "14-SOIC (3.9mm Width), 14-SOL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tube"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "RoHS Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Slew Rate"; Value = "13 V/µs"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "296-7136-5-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-7136-5-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Text Field1"; Value = "pristel=Nsc\nsanopea\<parttype>.ckt"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Input Offset"; Value = "3000µV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply, Single/Dual (±)"; Value = "7 V ~ 36 V, ±3.5 V ~ 18 V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR13_2 Pin=U2-1
+Added Pin To Net: NetName=NetR1_2 Pin=U2-2
+Added Pin To Net: NetName=NetR7_2 Pin=U2-3
+Added Pin To Net: NetName=VCC Pin=U2-4
+Added Pin To Net: NetName=GND Pin=U2-11
+Added Pin To Net: NetName=NetR8_2 Pin=U13-12
+Added Pin To Net: NetName=NetR13_2 Pin=U13-13
+Added Pin To Net: NetName=ADC Pin=U13-14
+Added Member To Class: ClassName=schematic Member=Component U13 LF347
+Added Room: Name=schematic

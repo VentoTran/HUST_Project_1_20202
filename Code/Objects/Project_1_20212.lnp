@@ -1,0 +1,8 @@
+".\Objects\main.obj",
+".\Objects\LCD1602.obj",
+".\Objects\delay.obj",
+".\Objects\ADC0804.obj",
+".\Objects\HS1101.obj" 
+TO ".\Objects\Project_1_20212" 
+PRINT(".\Listings\Project_1_20212.m51") RAMSIZE(256) 
+CODE( 0X0000-0X1FFF )

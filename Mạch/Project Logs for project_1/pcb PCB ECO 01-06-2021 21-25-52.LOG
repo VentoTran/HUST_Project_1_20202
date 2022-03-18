@@ -1,0 +1,119 @@
+Removed Pin From Net: NetName=GND Pin=C1-2
+Removed Pin From Net: NetName=GND Pin=C2-2
+Removed Pin From Net: NetName=GND Pin=D2-1
+Removed Pin From Net: NetName=GND Pin=D3-1
+Removed Pin From Net: NetName=GND Pin=JDC1-2
+Removed Pin From Net: NetName=GND Pin=JDC1-3
+Removed Pin From Net: NetName=VCC Pin=L1-2
+Removed Pin From Net: NetName=GND Pin=LED1-2
+Removed Pin From Net: NetName=VCC Pin=R17-1
+Removed Pin From Net: NetName=NetLED1_1 Pin=R17-2
+Removed Pin From Net: NetName=GND Pin=R18-1
+Removed Pin From Net: NetName=ADC Pin=U2-14
+Removed Pin From Net: NetName=NetC1_1 Pin=U3-1
+Removed Pin From Net: NetName=GND Pin=U3-3
+Removed Pin From Net: NetName=GND Pin=U3-5
+Removed Pin From Net: NetName=VCC Pin=VR3-1
+Removed Member From Class: ClassName=schematic Member=D3
+Removed Member From Class: ClassName=schematic Member=L1
+Removed Member From Class: ClassName=schematic Member=U3
+Removed Member From Class: ClassName=schematic Member=VR5
+Change Component Footprint: Designator=C2 Old Footprint=C3MM New Footprint=C8mm
+Change Component Footprint: Designator=C1 Old Footprint=C5mm New Footprint=C8mm
+Change Component Footprint: Designator=LED3 Old Footprint=LED-0805-Blue New Footprint=LED-0805-Green
+Change Component Footprint: Designator=LED1 Old Footprint=LED-0805-Blue New Footprint=LED-0805-Red
+Change Component Footprint: Designator=LED4 Old Footprint=LED-0805-Blue New Footprint=LED-0805-Yellow
+Change Component Footprint: Designator=VR1 Old Footprint=VR_3362P New Footprint=VAR_RESISTOR
+Change Component Footprint: Designator=VR2 Old Footprint=VR_3362P New Footprint=VAR_RESISTOR
+Change Component Comment : Designator=R19 Old Comment=1k New Comment=390
+Change Component Comment : Designator=R20 Old Comment=1k New Comment=390
+Change Component Comment : Designator=C2 Old Comment=470uF/16V New Comment=220uF/25
+Change Component Designator: OldDesignator=C3 NewDesignator=C5
+Change Component Designator: OldDesignator=C4 NewDesignator=C6
+Change Component Designator: OldDesignator=C5 NewDesignator=C7
+Change Component Designator: OldDesignator=C6 NewDesignator=C8
+Change Component Designator: OldDesignator=C7 NewDesignator=C9
+Change Component Designator: OldDesignator=C8 NewDesignator=C10
+Change Component Designator: OldDesignator=C9 NewDesignator=C11
+Change Component Designator: OldDesignator=IC1 NewDesignator=IC2
+Change Component Designator: OldDesignator=IC2 NewDesignator=IC3
+Change Component Designator: OldDesignator=R6 NewDesignator=R7
+Change Component Designator: OldDesignator=R7 NewDesignator=R8
+Change Component Designator: OldDesignator=R8 NewDesignator=R6
+Change Component Designator: OldDesignator=R13 NewDesignator=R14
+Change Component Designator: OldDesignator=R14 NewDesignator=R15
+Change Component Designator: OldDesignator=R15 NewDesignator=R16
+Change Component Designator: OldDesignator=R16 NewDesignator=R17
+Change Component Designator: OldDesignator=VR4 NewDesignator=VR3
+Change Component Designator: OldDesignator=VR5 NewDesignator=VR4
+Change component parameters: Designator = "BT1"; Footprint = "Nut Nhan 2 Chan SMD_N"; UniqueID = "\DGPEQMJC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH001036"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Nút Nh?n 2 Chân 3x6x2.5MM SMD"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CAP_0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33p"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CAP_0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RAD-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33p"; VariantName = "[No Variations]"
+Added Component: Designator=IC1(QTO-220H3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = ""; Value = "LM7808"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "LM7805"; VariantName = "[No Variations]"
+Added Component: Designator=R13(RES-SMD-0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC Pin=C3-2
+Added Pin To Net: NetName=NetC1_1 Pin=C4-2
+Added Pin To Net: NetName=NetC1_1 Pin=IC1-1
+Added Pin To Net: NetName=VCC Pin=IC1-3
+Added Pin To Net: NetName=NetJ1_2 Pin=R13-1
+Added Pin To Net: NetName=NetJ1_1 Pin=R13-2
+Added Pin To Net: NetName=NetLED1_1 Pin=R18-1
+Added Pin To Net: NetName=VCC Pin=R18-2
+Added Pin To Net: NetName=ADC Pin=U2-7
+Change Net Name : Old Net Name=NetC9_2 New Net Name=NetC11_2
+Change Net Name : Old Net Name=NetIC2_19 New Net Name=NetIC3_19
+Change Net Name : Old Net Name=NetR6_1 New Net Name=NetR7_1
+Change Net Name : Old Net Name=NetR6_2 New Net Name=NetR7_2
+Change Net Name : Old Net Name=NetR7_2 New Net Name=NetR8_2
+Change Net Name : Old Net Name=NetR16_1 New Net Name=NetR17_1
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=C2-2
+Added Pin To Net: NetName=NetC1_2 Pin=C3-1
+Added Pin To Net: NetName=NetC1_2 Pin=C4-1
+Added Pin To Net: NetName=NetC1_2 Pin=D2-1
+Added Pin To Net: NetName=NetC1_2 Pin=IC1-2
+Added Pin To Net: NetName=NetC1_2 Pin=JDC1-2
+Added Pin To Net: NetName=NetC1_2 Pin=JDC1-3
+Added Pin To Net: NetName=NetC1_2 Pin=LED1-2
+Added Net: Name=NetC1_2
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Pin To Net: NetName=NetR6_2 Pin=R15-1
+Added Pin To Net: NetName=NetR6_2 Pin=U2-6
+Added Net: Name=NetR6_2
+Added Pin To Net: NetName=NetR14_2 Pin=R14-2
+Added Pin To Net: NetName=NetR14_2 Pin=U2-1
+Added Pin To Net: NetName=NetR14_2 Pin=U2-5
+Added Net: Name=NetR14_2
+Added Member To Class: ClassName=schematic Member=Component C10 Capacitor Ceramic
+Added Member To Class: ClassName=schematic Member=Component C11 150pF
+Added Member To Class: ClassName=schematic Member=Component IC3 ADC0804
+Added Room: Name=schematic

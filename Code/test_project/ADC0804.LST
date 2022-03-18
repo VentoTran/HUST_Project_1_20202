@@ -1,0 +1,127 @@
+C51 COMPILER V9.01   ADC0804                                                               06/09/2021 20:55:57 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE ADC0804
+OBJECT MODULE PLACED IN ADC0804.OBJ
+COMPILER INVOKED BY: E:\Phan mem\Keil 4 for 8051\C51\BIN\C51.EXE ADC0804.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include "ADC0804.h"
+*** ERROR C231 IN LINE 13 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'P0': redefinition
+*** ERROR C231 IN LINE 14 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'P1': redefinition
+*** ERROR C231 IN LINE 15 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'P2': redefinition
+*** ERROR C231 IN LINE 16 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'P3': redefinition
+*** ERROR C231 IN LINE 17 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'PSW': redefinition
+*** ERROR C231 IN LINE 18 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'ACC': redefinition
+*** ERROR C231 IN LINE 19 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'B': redefinition
+*** ERROR C231 IN LINE 20 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'SP': redefinition
+*** ERROR C231 IN LINE 21 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'DPL': redefinition
+*** ERROR C231 IN LINE 22 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'DPH': redefinition
+*** ERROR C231 IN LINE 23 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'PCON': redefinition
+*** ERROR C231 IN LINE 24 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TCON': redefinition
+*** ERROR C231 IN LINE 25 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TMOD': redefinition
+*** ERROR C231 IN LINE 26 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TL0': redefinition
+*** ERROR C231 IN LINE 27 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TL1': redefinition
+*** ERROR C231 IN LINE 28 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TH0': redefinition
+*** ERROR C231 IN LINE 29 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TH1': redefinition
+*** ERROR C231 IN LINE 30 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'IE': redefinition
+*** ERROR C231 IN LINE 31 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'IP': redefinition
+*** ERROR C231 IN LINE 32 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'SCON': redefinition
+*** ERROR C231 IN LINE 33 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'SBUF': redefinition
+*** ERROR C231 IN LINE 38 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'CY': redefinition
+*** ERROR C231 IN LINE 39 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'AC': redefinition
+*** ERROR C231 IN LINE 40 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'F0': redefinition
+*** ERROR C231 IN LINE 41 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'RS1': redefinition
+*** ERROR C231 IN LINE 42 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'RS0': redefinition
+*** ERROR C231 IN LINE 43 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'OV': redefinition
+*** ERROR C231 IN LINE 44 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'P': redefinition
+*** ERROR C231 IN LINE 47 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TF1': redefinition
+*** ERROR C231 IN LINE 48 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TR1': redefinition
+*** ERROR C231 IN LINE 49 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TF0': redefinition
+*** ERROR C231 IN LINE 50 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TR0': redefinition
+*** ERROR C231 IN LINE 51 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'IE1': redefinition
+*** ERROR C231 IN LINE 52 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'IT1': redefinition
+*** ERROR C231 IN LINE 53 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'IE0': redefinition
+*** ERROR C231 IN LINE 54 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'IT0': redefinition
+*** ERROR C231 IN LINE 57 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'EA': redefinition
+*** ERROR C231 IN LINE 58 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'ES': redefinition
+*** ERROR C231 IN LINE 59 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'ET1': redefinition
+*** ERROR C231 IN LINE 60 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'EX1': redefinition
+*** ERROR C231 IN LINE 61 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'ET0': redefinition
+*** ERROR C231 IN LINE 62 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'EX0': redefinition
+*** ERROR C231 IN LINE 65 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'PS': redefinition
+*** ERROR C231 IN LINE 66 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'PT1': redefinition
+*** ERROR C231 IN LINE 67 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'PX1': redefinition
+*** ERROR C231 IN LINE 68 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'PT0': redefinition
+*** ERROR C231 IN LINE 69 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'PX0': redefinition
+*** ERROR C231 IN LINE 72 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'RD': redefinition
+*** ERROR C231 IN LINE 73 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'WR': redefinition
+*** ERROR C231 IN LINE 74 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'T1': redefinition
+*** ERROR C231 IN LINE 75 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'T0': redefinition
+*** ERROR C231 IN LINE 76 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'INT1': redefinition
+*** ERROR C231 IN LINE 77 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'INT0': redefinition
+*** ERROR C231 IN LINE 78 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TXD': redefinition
+C51 COMPILER V9.01   ADC0804                                                               06/09/2021 20:55:57 PAGE 2   
+
+*** ERROR C231 IN LINE 79 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'RXD': redefinition
+*** ERROR C231 IN LINE 82 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'SM0': redefinition
+*** ERROR C231 IN LINE 83 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'SM1': redefinition
+*** ERROR C231 IN LINE 84 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'SM2': redefinition
+*** ERROR C231 IN LINE 85 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'REN': redefinition
+*** ERROR C231 IN LINE 86 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TB8': redefinition
+*** ERROR C231 IN LINE 87 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'RB8': redefinition
+*** ERROR C231 IN LINE 88 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'TI': redefinition
+*** ERROR C231 IN LINE 89 OF E:\PHAN MEM\KEIL 4 FOR 8051\C51\INC\ATMEL\REG51.H: 'RI': redefinition
+   2          
+   3          
+   4          unsigned char ADC0804_Read(void)
+   5          {
+   6   1              unsigned char result;
+   7   1              
+   8   1              ADC0804_CS = 0;
+   9   1              
+  10   1              ADC0804_WR = 0;
+  11   1              ADC0804_WR = 1;
+  12   1              
+  13   1              while(ADC0804_INTR);
+  14   1              
+  15   1              ADC0804_RD = 0;
+  16   1              result = ADC0804_Data;
+  17   1              ADC0804_RD = 1;
+  18   1              
+  19   1              
+  20   1              return result;
+  21   1      }
+  22          
+  23          
+  24          float Cal_Temp(unsigned int ADC_Value)
+  25          {
+  26   1              float Temperture = 0.0;
+  27   1              
+  28   1              if(ADC_Value <= 30)
+  29   1                      Temperture = (ADC_Value - 3) / 2.72569;
+  30   1              else if ((ADC_Value > 30) && (ADC_Value <= 57))
+  31   1                      Temperture = (ADC_Value - 30) / 2.67593 + 10;
+  32   1              else if ((ADC_Value > 57) && (ADC_Value <= 83))
+  33   1                      Temperture = (ADC_Value - 57) / 2.62699 + 20;
+  34   1              else if ((ADC_Value > 83) && (ADC_Value <= 109))
+  35   1                      Temperture = (ADC_Value - 83) / 2.57922 + 30;
+  36   1              else if ((ADC_Value > 109) && (ADC_Value <= 134))
+  37   1                      Temperture = (ADC_Value - 109) / 2.5326 + 40;
+  38   1              else if ((ADC_Value > 134) && (ADC_Value <= 159))
+  39   1                      Temperture = (ADC_Value - 134) / 2.48723 + 50;
+  40   1              else if ((ADC_Value > 159) && (ADC_Value <= 183))
+  41   1                      Temperture = (ADC_Value - 159) / 2.44307 + 60;
+  42   1              else if ((ADC_Value > 183) && (ADC_Value <= 207))
+  43   1                      Temperture = (ADC_Value - 183) / 2.39995 + 70;
+  44   1              else if ((ADC_Value > 207) && (ADC_Value <= 231))
+  45   1                      Temperture = (ADC_Value - 207) / 2.35803 + 80;
+  46   1              else if ((ADC_Value > 231) && (ADC_Value <= 255))
+  47   1                      Temperture = (ADC_Value - 231) / 2.31705 + 90;
+  48   1      
+  49   1              return Temperture;
+  50   1      }
+  51          
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  63 ERROR(S)

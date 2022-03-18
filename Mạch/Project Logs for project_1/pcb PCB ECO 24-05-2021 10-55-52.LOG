@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GND Pin=LED4-2
+Removed Pin From Net: NetName=P2.0 Pin=R22-1
+Removed Pin From Net: NetName=NetLED4_1 Pin=R22-2
+Change component parameters: Designator = "BT1"; Footprint = "Nut Nhan 2 Chan SMD_N"; UniqueID = "\DGPEQMJC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH001036"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "Nút Nh?n 2 Chân 3x6x2.5MM SMD"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=P2.0 Pin=LED4-2
+Added Pin To Net: NetName=NetLED4_1 Pin=R22-1
+Added Pin To Net: NetName=VCC Pin=R22-2
+Added Room: Name=schematic
